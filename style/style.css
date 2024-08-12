@@ -1,0 +1,83 @@
+/* font embedded -inter*/
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.orange{
+    color: rgba(230, 83, 60, 1);
+}
+.header-part{
+    padding: 57px 190px 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fitness{
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+.nav-menus ul{
+    display: flex;
+    gap:47px;
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+.nav-menus ul li{
+    list-style: none;
+}
+.nav-menus ul li:hover a{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+}
+.nav-menus ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* color: rgba(255, 255, 255, 1); */
+    color: black;
+}
+/* banner part starts here */
+.banner{
+    display: flex;
+}
+.banner-text{
+    margin-top: 96px;
+    border: 1px solid lightcoral;
+}
+.banner-text h1{
+    font-size: 78px;
+    font-weight: 900;
+}
+.banner-text p{
+    font-size: 16px;
+    font-weight: 400;
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: black;
+    margin-top: 28px;
+}
+.btn{
+    margin-top: 18px;
+}
+button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 45px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 42px;
+    color: rgba(255, 255, 255, 1);
+}
+button:hover{
+    background-color: rgba(230, 83, 60, 1);
+}
