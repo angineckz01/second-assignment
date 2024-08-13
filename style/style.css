@@ -1,18 +1,24 @@
-/* font embedded -inter*/
+/*================ font embedded -inter==============*/
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* ============universal selector============= */
 *{
     margin: 0;
     padding: 0;
 }
+/* ============primary color=================== */
 .orange{
     color: rgba(230, 83, 60, 1);
 }
+/* ==============header part begins here================= */
 .header-part{
     padding: 57px 190px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
 }
 .nav{
     display: flex;
@@ -33,11 +39,13 @@
 }
 .nav-menus ul li{
     list-style: none;
+    padding: 12px 0;
 }
 .nav-menus ul li:hover a{
     color: rgba(255, 255, 255, 1);
     background-color: rgba(230, 83, 60, 1);
     border-radius: 46px;
+    padding: 8px 20px;
 }
 .nav-menus ul li a{
     font-size: 18px;
@@ -45,13 +53,14 @@
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
-    /* color: rgba(255, 255, 255, 1); */
-    color: black;
+    color: rgba(255, 255, 255, 1);
 }
-/* banner part starts here */
+/*=================== banner part starts here ======================*/
 .banner{
     display: flex;
+    gap: 85px;
 }
+/* ===========banner-text starts here===== */
 .banner-text{
     margin-top: 96px;
     border: 1px solid lightcoral;
@@ -59,15 +68,17 @@
 .banner-text h1{
     font-size: 78px;
     font-weight: 900;
+    color: rgba(255, 255, 255, 1);
 }
 .banner-text p{
     font-size: 16px;
     font-weight: 400;
-    /* color: rgba(255, 255, 255, 0.5); */
-    color: black;
+    color: rgba(255, 255, 255, 0.5);
     margin-top: 28px;
 }
 .btn{
+    display: flex;
+    gap: 14px;
     margin-top: 18px;
 }
 button{
@@ -80,4 +91,43 @@ button{
 }
 button:hover{
     background-color: rgba(230, 83, 60, 1);
+}
+/* =========banner-image begins here============ */
+.banner-img{
+    border: 2px solid lightgreen;
+    position: relative;
+    margin-top: 32px;
+}
+.float{
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: inline-block;
+    padding: 20px 23px;
+}
+.ball{
+    width: 40px;
+    border-radius: 50%;
+    color: rgba(230, 83, 60, 1);
+}
+.float1{
+    top: -220px;
+    left: -113px;
+    background-color: rgba(48, 48, 48, 0.54);
+}
+.float2{
+    top: -420px;
+    left: 80px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+.float-number{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+.float-txt{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
 }
