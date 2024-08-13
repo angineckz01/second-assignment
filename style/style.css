@@ -147,13 +147,12 @@ button:hover{
     margin: 0 auto;
     margin-top: 100px;
 }
-.habit-part h3{
+.title{
     font-size: 48px;
     font-weight: 900;
     color: rgba(255, 255, 255, 1);
     text-align: center;
 }
-
 .habit-items{
     display: flex;
     margin-top: 58px;
@@ -178,4 +177,39 @@ button:hover{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
+}
+/* =======run part begins here=========== */
+.run{
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 18px;
+    background-color: rgba(34, 34, 34, 1);
+}
+.run-text{
+    width: 50%;
+    padding: 40px 0 40px 50px;
+}
+.run-text .title{
+    text-align: justify;
+}
+.run-text .description{
+    margin-top: 14px;
+    text-align: left;
+}
+button{
+    margin-top: 34px;
+    background-color: rgba(34, 34, 34, 1);
+}
+.run .run-img{
+    width: 50%;
+    padding-right: 30px;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 18px;
 }
