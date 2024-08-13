@@ -69,7 +69,6 @@
 /* ===========banner-text starts here===== */
 .banner-text{
     margin-top: 96px;
-    border: 1px solid lightcoral;
 }
 .banner-text h1{
     font-size: 78px;
@@ -100,7 +99,6 @@ button:hover{
 }
 /* =========banner-image begins here============ */
 .banner-img{
-    border: 2px solid lightgreen;
     position: relative;
     margin-top: 32px;
 }
@@ -213,3 +211,69 @@ button{
     width: 100%;
     border-radius: 18px;
 }
+/* =============calculator============= */
+.calculator-top{
+    margin: 88px;
+    text-align: left;
+}
+.bmi-calculation{
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    gap: 90px;
+    width: 1060px;
+    margin: 0 auto;
+}
+/* ============bmi chart begins here=============== */
+.bmi-chart{
+    width: 45%;
+    margin: 0 auto;
+}
+.heading{
+    font-size: 28px;
+    font-weight: 900;
+    padding-top: 50px;
+}
+.bmi-chart .table{
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+.t-head{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+.bmi-chart .table td{
+    padding: 13px 41px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* ============bmi calculator part begins here==============*/
+.bmi-calculator{
+    width: 55%;
+    margin: 0 auto;
+}
+.bmi-calculator .description{
+    margin-top: 14px;
+    text-align: left;
+}
+.bmi-calculator form{
+    margin: 34px 0;
+}
+.bmi-calculator input,select{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.bmi-calculator .description1,.description2{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 135px 12px 20px;
+    border-radius: 8px;
+}
+.bmi-calculator .description2{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 270px 12px 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
